@@ -22,5 +22,6 @@ with open("1_input_full.txt") as f:
 print(totals)
 # Part 1
 print(f"Max: {max(totals)}")
+print(len(totals))
 # Part 2
 print(f"Sum Top 3: {sum(sorted(totals, reverse=True)[:3])}")

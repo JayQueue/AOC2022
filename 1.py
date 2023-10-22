@@ -27,7 +27,9 @@ with open("1_input_full.txt") as f:
         line = f.readline()
     # Part 1
     # Print max of the totals list
+    print(totals)
     print(f"Max: {max(totals)}")
+    print(len(totals))
 
     # Part 2
     # Print sum of a reversed sorted list where I got the first 3 items
